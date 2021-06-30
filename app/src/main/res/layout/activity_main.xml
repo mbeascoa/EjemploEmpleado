@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="INTRODUZCA LOS DATOS DEL EMPLEADO" />
+
+    <TextView
+        android:id="@+id/textViewNumeroEmpleado"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="NÚMERO EMPLEADO" />
+
+    <EditText
+        android:id="@+id/editTextNumeroEmpleado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APELLIDO" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewOficio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFICIO" />
+
+    <EditText
+        android:id="@+id/editTextOficio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTRODUZCA EL SALARIO" />
+
+    <EditText
+        android:id="@+id/editTextSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textViewComision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTRODUZCA LA COMISION" />
+
+    <EditText
+        android:id="@+id/editTextComision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/botCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mandarDatos"
+        android:text="Calcular Nómina" />
+</LinearLayout>
